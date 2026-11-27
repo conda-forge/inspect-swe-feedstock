@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: inspect-swe
-  version: "0.3.2"
+  version: "0.3.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/inspect_swe-${{ version }}.tar.gz
-  sha256: 0d50a776256b2e426e0399450d9e78e1e4b816821779704402fb4a9ea89b90e8
+  sha256: 7e95a43f3eb2d5a48e869e7057a3fbf5d97071d30285b160354d0792ab5052e4
 
 build:
   number: 0
